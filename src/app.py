@@ -9,6 +9,7 @@ def home():
     return "Sistema de Biblioteca Online - Deploy Automático Funcionando!"
 
 
+@app.route("/status")
 def status():
     return "Sistema desenvolvido em Flask para estudo de CI/CD"
 
